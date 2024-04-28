@@ -7,15 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#1970F1", 
-        secondary: "#909090", 
-        danger: "#DF4759", 
-        lightGrey:"#EEEEEE",
-        lighestGrey:"#F1F1F1",
-        sideText:"#808080"
-        
-       
-       
+        primary: "#1970F1",
+        primaryHover:"#094AAA",
+        secondary: "#909090",
+        danger: "#DF4759",
+        lightGrey: "#EEEEEE",
+        lighestGrey: "#F1F1F1",
+        sideText: "#808080",
       },
     },
   },

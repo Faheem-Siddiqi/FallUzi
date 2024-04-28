@@ -12,7 +12,7 @@ export default function Grades() {
           <div className='flex flex-col w-full xl:w-[75%]'>
             <p className='text-black text-xl font-semibold'>Complete Project Car</p>
             <p className='text-sideText'>2018 2018 Toyota Camry</p>
-            <div className="flex">
+            <div className="flex ">
               <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 0L8.65258 4.96591H14L9.674 8.03409L11.326 13L7 9.93012L2.67342 12.9994L4.326 8.03352L0 4.96591H5.34742L7 0Z" fill="#EF730F" />
               </svg>
@@ -41,9 +41,9 @@ export default function Grades() {
         <hr className='my-3' />
         <p className='text-sideText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget justo luctus urna  see to sollicitudin aliquet. Nunc ut odio et diam maximus luctus. Nunc ut dapibus nisl, id iaculis leo. Sed tincidunt magna arcu, a vestibulum erat eleifend at. Quisque vitae nunc sollicitudin, tristique erat ac, vestibulum to tortor. Etiam ut lorem metus</p>
         <div className='flex flex-wrap gap-5 my-5 xl:justify-start justify-between'>
-          <div className='w-full  xl:w-fit flex items-center gap-5'>
+          <div className='w-full  xl:w-fit flex items-center gap-5 '>
             <p className='font-bold text-black'>Frame/Unibody Grade</p>
-            <div className="flex">
+            <div className="flex ">
               <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 0L8.65258 4.96591H14L9.674 8.03409L11.326 13L7 9.93012L2.67342 12.9994L4.326 8.03352L0 4.96591H5.34742L7 0Z" fill="#EF730F" />
               </svg>
@@ -130,7 +130,7 @@ export default function Grades() {
         <div className='w-full  xl:w-fit flex items-center gap-5'>
             <p className='font-bold text-black'>Interior Grade</p>
             <div className="flex">
-              <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg  className='faheem' width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 0L8.65258 4.96591H14L9.674 8.03409L11.326 13L7 9.93012L2.67342 12.9994L4.326 8.03352L0 4.96591H5.34742L7 0Z" fill="#EF730F" />
               </svg>
               <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,7 +148,7 @@ export default function Grades() {
             </div>
           </div>
         </div>
-        <button className='bg-primary text-white px-5 py-3 rounded-lg my-4'>
+        <button className='bg-primary text-white px-5 py-3 rounded-lg my-4 hover:bg-primaryHover duration-300'>
           Next
         </button>
       </div>

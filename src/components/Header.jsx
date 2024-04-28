@@ -2,7 +2,7 @@ import React from 'react'
 export default function Header() {
     return (
         <>
-            <div className='flex justify-between mx-4 items-center  flex-col lg:flex-row  my-3 '>
+            <div className='flex justify-between mx-10 items-center  flex-col lg:flex-row  my-3 '>
                 <div className='w-11/12'>
                     <form >
                         <input type='text'
