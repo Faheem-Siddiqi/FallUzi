@@ -4,7 +4,7 @@ import Tires from './components/vehicle/Tires'
 import Vehicle from './components/vehicle/Vehicle'
 import Report from './components/SampleReports/Report.jsx'
 import VehicleInfo from './components/vehicle/VehicleInfo'
-import Paystubs from './components/vehicle/Paystubs.jsx'
+import Paystubs from './components/Paystubs.jsx'
 import Paysubs from './components/Paysubs.jsx'
 function App() {
   return (
@@ -16,10 +16,7 @@ function App() {
         <Route path="/vehicle" element={<VehicleInfo />} />
         <Route path="/Paystubs" element={<Paystubs />} />
         <Route path="/Paysubs" element={<Paysubs />} />
-     
       </Routes>
-      
-
       {/* <Vehicle/> */}
     </>
   )
