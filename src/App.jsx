@@ -7,6 +7,7 @@ import VehicleInfo from './components/vehicle/VehicleInfo'
 import Paystubs from './components/Paystubs.jsx'
 import Paysubs from './components/Paysubs.jsx'
 import Feedback from './components/feedback/feedback.jsx'
+import Tutorial from './components/tutorials/tutorial.jsx'
 function App() {
   return (
     <>
@@ -20,6 +21,8 @@ function App() {
 
         {/* Feedback */}
         <Route path="/feedback" element={<Feedback />} />
+        {/* Tutorial */}
+        <Route path="/tutorial" element={<Tutorial />} />
       </Routes>
       {/* <Vehicle/> */}
     </>
