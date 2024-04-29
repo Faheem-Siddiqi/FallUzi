@@ -45,12 +45,25 @@ export default function Feedback() {
       {[...Array(10).keys()].map((number) => (
         <div
           key={number + 1}
-          className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-300 mx-1 cursor-pointer ${
-            selectedNumber === number + 1 ? 'bg-primary text-white' : ''
-          }`}
+          className={`flex items-center justify-center w-12 h-12  rounded-full border font-medium  mx-1 cursor-pointer ${
+            selectedNumber === number + 1 ? 'bg-white border-primary  ' : 'bg-[#F2F2F2] border-gray-400'
+         }`}
+            
+        
           onClick={() => handleSelectNumber(number + 1)}
         >
-          {number + 1}
+            <div
+            className={`flex items-center justify-center w-11 h-11 rounded-full border font-bold cursor-pointer ${
+                selectedNumber === number + 1 ? 'bg-primary text-white  ' : ''
+             }`}
+            > 
+            
+
+            {number + 1}
+            </div>
+          
+          
+          
         </div>
       ))}
     </div>
@@ -69,7 +82,7 @@ export default function Feedback() {
           />
         
       </div>
-      <div className="justify-center px-8 py-2 text-base text-white whitespace-nowrap bg-primary rounded-[100px] max-md:px-5">
+      <div className="justify-center px-8 py-2 text-base text-white whitespace-nowrap bg-primary rounded-[100px] max-md:px-5 cursor-pointer">
         Send
       </div>
     </div>
